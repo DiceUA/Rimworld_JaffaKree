@@ -8,7 +8,7 @@
     <pawnsPlural>Jaffas</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
+    <raidCommonality>50</raidCommonality>
     <canStageAttacks>true</canStageAttacks>
     <canFlee>false</canFlee>
     <startingGoodwill>
@@ -17,6 +17,7 @@
     </startingGoodwill>
 		<factionNameMaker>NamerFactionJaffa</factionNameMaker>
 		<pawnNameMaker>NamerPersonJaffa</pawnNameMaker>
+		<fixedName>Jaffa</fixedName>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<hairTags>
