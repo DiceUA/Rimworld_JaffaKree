@@ -186,6 +186,8 @@
     <soundInteract>InteractPistol</soundInteract>
 	<statBases>
 	  <MarketValue>200</MarketValue>
+	  <MeleeWeapon_DamageAmount>12</MeleeWeapon_DamageAmount>
+	  <MeleeWeapon_Cooldown>1.66</MeleeWeapon_Cooldown>
     </statBases>
     <equippedAngleOffset>25</equippedAngleOffset>
 	<weaponTags>
