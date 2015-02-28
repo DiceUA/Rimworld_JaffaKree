@@ -17,7 +17,6 @@
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
     <tickerType>Never</tickerType>
-    <tradersCarry>true</tradersCarry>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
