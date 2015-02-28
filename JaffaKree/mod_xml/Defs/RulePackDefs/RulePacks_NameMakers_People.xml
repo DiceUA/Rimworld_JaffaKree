@@ -7,13 +7,13 @@
 			<rulesStrings>
 				<li>name->[jaffaname]</li>
 			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+          			<keyword>jaffaname</keyword>
+          			<path>NameBanks/JaffaNames</path>
+        		</li>
+			</rulesRaw>
 		</rulePack>
-		<rulesRaw>
-			<li Class="Rule_File">
-          		<keyword>jaffaname</keyword>
-          		<path>NameBanks/JaffaNames</path>
-        	</li>
-		</rulesRaw>
 	</RulePackDef>
 
 </NameMakerDefs>

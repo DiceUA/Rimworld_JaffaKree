@@ -7,13 +7,13 @@
       		<rulesStrings>
         		<li>name->The Goa'uld System Lords [goauldname]</li>
       		</rulesStrings>
-    	</rulePack>
-    	<rulesRaw>    		
-        	<li Class="Rule_File">
-         		<keyword>goauldname</keyword>
-        		<path>NameBanks/GoauldNames</path>
-       		</li>
-        </rulesRaw>				
+			<rulesRaw>    		
+        		<li Class="Rule_File">
+         			<keyword>goauldname</keyword>
+        			<path>NameBanks/GoauldNames</path>
+       			</li>
+        	</rulesRaw>
+    	</rulePack>    					
 	</RulePackDef>
 
 
