@@ -83,7 +83,7 @@
     </race>
     <recipes>
       <li>InstallPowerClaw</li>
-	  <li>InstallScytherKnifeProtrusion</li>
+      <li>InstallScytherBlade</li>
       <li>InstallBionicEye</li>
       <li>InstallBionicArm</li>
       <li>InstallBionicLeg</li>
