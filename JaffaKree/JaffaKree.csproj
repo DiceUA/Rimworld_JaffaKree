@@ -58,8 +58,6 @@
     <None Include="mod_xml\About\Preview.png" />
     <None Include="mod_xml\Defs\FactionDefs\JaffaFactionDefs.xml" />
     <None Include="mod_xml\Defs\HairDefs\HairsJaffa.xml" />
-    <None Include="mod_xml\Defs\NameMakerDefs\NameMakers_Factions.xml" />
-    <None Include="mod_xml\Defs\NameMakerDefs\NameMakers_People.xml" />
     <None Include="mod_xml\Defs\PawnKindDefs\Pawkinds_Jaffas.xml" />
     <None Include="mod_xml\Defs\SoundDefs\JaffaStaff_Sound.xml" />
     <None Include="mod_xml\Defs\SoundDefs\ZatGun_Sound.xml" />
@@ -163,5 +161,7 @@
     <None Include="mod_xml\Textures\Weapons\zat.png" />
     <None Include="mod_xml\Textures\Weapons\zat2.png" />
     <None Include="mod_xml\Textures\Weapons\Projectile\bulet_zat.png" />
+    <None Include="mod_xml\Defs\RulePackDefs\NameMakers_Factions.xml" />
+    <None Include="mod_xml\Defs\RulePackDefs\NameMakers_People.xml" />
   </ItemGroup>
 </Project>
