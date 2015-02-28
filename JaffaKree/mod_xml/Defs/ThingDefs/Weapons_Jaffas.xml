@@ -184,7 +184,6 @@
     <graphicPath>Weapons/Jaffa_knife</graphicPath>
 	<graphicClass>Graphic_Single</graphicClass>
     <soundInteract>InteractPistol</soundInteract>
-    <tradersCarry>False</tradersCarry>
 	<statBases>
 	  <MarketValue>150</MarketValue>
     </statBases>
