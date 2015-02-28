@@ -161,7 +161,7 @@
     <None Include="mod_xml\Textures\Weapons\zat.png" />
     <None Include="mod_xml\Textures\Weapons\zat2.png" />
     <None Include="mod_xml\Textures\Weapons\Projectile\bulet_zat.png" />
-    <None Include="mod_xml\Defs\RulePackDefs\NameMakers_Factions.xml" />
-    <None Include="mod_xml\Defs\RulePackDefs\NameMakers_People.xml" />
+    <None Include="mod_xml\Defs\RulePackDefs\RulePacks_NameMakers_Factions.xml" />
+    <None Include="mod_xml\Defs\RulePackDefs\RulePacks_NameMakers_People.xml" />
   </ItemGroup>
 </Project>

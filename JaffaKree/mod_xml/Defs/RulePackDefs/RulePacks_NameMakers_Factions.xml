@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+	<RulePackDef>
+		<defName>NamerFactionJaffa</defName>
+		<rulePack>
+      		<rulesStrings>
+        		<li>name->The Goa'uld System Lords [goauldname]</li>
+      		</rulesStrings>
+    	</rulePack>
+    	<rulesRaw>    		
+        	<li Class="Rule_File">
+         		<keyword>goauldname</keyword>
+        		<path>NameBanks/GoauldNames</path>
+       		</li>
+        </rulesRaw>				
+	</RulePackDef>
+
+
+
+
+
+</NameMakerDefs>
+
+
+
+
+
+
+
