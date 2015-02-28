@@ -80,6 +80,34 @@
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <ageGenerationCurve>
+        <points>
+          <li>
+            <loc>(14,0)</loc>
+          </li>
+          <li>
+            <loc>(16,100)</loc>
+          </li>
+          <li>
+            <loc>(50,100)</loc>
+          </li>
+          <li>
+            <loc>(60,30)</loc>
+          </li>
+          <li>
+            <loc>(70,18)</loc>
+          </li>
+          <li>
+            <loc>(80,10)</loc>
+          </li>
+          <li>
+            <loc>(90,3)</loc>
+          </li>
+          <li>
+            <loc>(100,0)</loc>
+          </li>        
+        </points>
+      </ageGenerationCurve>
     </race>
     <recipes>
       <li>InstallPowerClaw</li>
