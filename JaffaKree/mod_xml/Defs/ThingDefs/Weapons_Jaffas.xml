@@ -116,7 +116,7 @@
         <projectileDef>Bullet_JaffaStaff</projectileDef>
 		<ai_IsIncendiary>false</ai_IsIncendiary>
         <warmupTicks>120</warmupTicks>
-        <baseCooldownTicks>170</baseCooldownTicks>
+        <defaultCooldownTicks>170</defaultCooldownTicks>
         <range>28</range>
         <accuracyTouch>0.95</accuracyTouch>
         <accuracyShort>0.85</accuracyShort>
@@ -164,7 +164,7 @@
         <projectileDef>Bullet_Zat</projectileDef>
 		<ai_IsIncendiary>false</ai_IsIncendiary>
         <warmupTicks>125</warmupTicks>
-        <baseCooldownTicks>150</baseCooldownTicks>
+        <defaultCooldownTicks>150</defaultCooldownTicks>
         <range>18</range>
         <accuracyTouch>0.92</accuracyTouch>
         <accuracyShort>0.85</accuracyShort>
@@ -195,7 +195,7 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <baseCooldownTicks>100</baseCooldownTicks>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
         <hasStandardCommand>true</hasStandardCommand>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Stab</meleeDamageDef>

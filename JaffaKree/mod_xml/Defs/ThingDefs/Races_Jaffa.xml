@@ -45,14 +45,14 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <baseCooldownTicks>100</baseCooldownTicks>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>LeftFist</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <baseCooldownTicks>100</baseCooldownTicks>
+        <defaultCooldownTicks>100</defaultCooldownTicks>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>RightFist</linkedBodyPartsGroup>
