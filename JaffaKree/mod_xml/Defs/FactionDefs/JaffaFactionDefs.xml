@@ -29,6 +29,8 @@
       <min>-100</min>
       <max>-80</max>
     </naturalColonyGoodwill>
+    <pawnGroupMakers>
+      <li>
 		<spawnGroups>
 			<li>
 				<selectionWeight>70</selectionWeight>
@@ -90,9 +92,9 @@
 					<li>JaffaJackalGuard</li>
 				</kinds>
 			</li>
-
-
 		</spawnGroups>
+	  </li>
+    </pawnGroupMakers>
     <homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
     <homeIconColor>(255,128,000)</homeIconColor>
   </FactionDef>
