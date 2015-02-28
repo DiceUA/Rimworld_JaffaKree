@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <ThingDef Name="BaseGun" Abstract="True">
+    <category>Item</category>
+    <eType>Equipment</eType>
+    <thingClass>Equipment</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <selectable>True</selectable>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Midworld</techLevel>
+    <thingCategories>
+      <li>WeaponsRanged</li>
+    </thingCategories>
+	
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+	<smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+  </ThingDef>
+  
+  
+
+
+  <ThingDef Name="BaseBullet" Abstract="True">
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Bullet</thingClass>
+    <label>bullet</label>
+    <useStandardHealth>False</useStandardHealth>
+    <neverMultiSelect>True</neverMultiSelect>
+    <shaderType>Transparent</shaderType>
+  </ThingDef>
+
+    <ThingDef Name="BaseMeleeWeapon" Abstract="True">
+    <category>Item</category>
+    <eType>Equipment</eType>
+    <thingClass>Equipment</thingClass>
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <selectable>True</selectable>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <techLevel>Midworld</techLevel>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+    </comps>
+	<smeltProducts>
+      <Steel>10</Steel>
+    </smeltProducts>
+  </ThingDef>
+  <!-- ============================================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_JaffaStaff</defName>
+    <label>Jaffa staff shot</label>
+    <graphicPath>Things/Projectile/InfernoCannonShot</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <speed>75</speed>
+      <explosionRadius>0</explosionRadius >
+      <postExplosionSpawnThingDef>Puddle_Fuel</postExplosionSpawnThingDef>
+      <explosionSpawnChance>0</explosionSpawnChance>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_JaffaStaff</defName>
+    <label>Jaffa Staff</label>
+    <description>The Jaffa staff, or Ma'Tok staff, is the primary weapon of Jaffa warriors.</description>
+    <graphicPath>Weapons/staff</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+	<soundInteract>InteractPistol</soundInteract>
+    <statBases>
+      <MarketValue>900</MarketValue>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>False</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+	<equippedAngleOffset>45</equippedAngleOffset>
+    <weaponTags>
+      <li>JaffaStaffWeapon</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_JaffaStaff</projectileDef>
+		<ai_IsIncendiary>false</ai_IsIncendiary>
+        <warmupTicks>120</warmupTicks>
+        <baseCooldownTicks>170</baseCooldownTicks>
+        <range>28</range>
+        <accuracyTouch>0.95</accuracyTouch>
+        <accuracyShort>0.85</accuracyShort>
+        <accuracyMedium>0.75</accuracyMedium>
+        <accuracyLong>0.70</accuracyLong>
+        <burstShotCount>1</burstShotCount>
+        <!--<soundCast>InfernoCannon_Fire</soundCast>-->
+		<soundCast>JaffaStaff_Fire</soundCast>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Zat</defName>
+    <label>Zat'nik'tel shot</label>
+    <graphicPath>Weapons/Projectile/bulet_zat</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <projectile>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>90</damageAmountBase> <!-- 90 means around 20sec stunned -->
+      <speed>20</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>Gun_Zat</defName>
+    <label>Zat'nik'tel</label>
+    <description>This is a Goa'uld Zat'nik'tel. A weapon using a different form of energy, less powerful than that of a staff weapon. Less destructive, but still quite deadly.  One shot can incapacitate a victim</description>
+    <graphicPath>Weapons/zat2</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+	<!-- <soundInteract>InteractPistol</soundInteract> -->
+	<soundInteract>InteractZat</soundInteract>
+    <statBases>
+      <MarketValue>500</MarketValue>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <destroyOnDrop>False</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <weaponTags>
+      <li>JaffaZatWeapon</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_Zat</projectileDef>
+		<ai_IsIncendiary>false</ai_IsIncendiary>
+        <warmupTicks>125</warmupTicks>
+        <baseCooldownTicks>150</baseCooldownTicks>
+        <range>18</range>
+        <accuracyTouch>0.92</accuracyTouch>
+        <accuracyShort>0.85</accuracyShort>
+        <accuracyMedium>0.65</accuracyMedium>
+        <accuracyLong>0.55</accuracyLong>
+        <burstShotCount>1</burstShotCount>
+        <!-- <soundCast>InfernoCannon_Fire</soundCast> -->
+		<soundCast>ZatGun_Fire</soundCast>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseMeleeWeapon">
+    <defName>MeleeWeapon_JaffaKnife</defName>
+    <label>jaffa knife</label>
+    <description>A blade carried by Jaffa soldiers.</description>
+    <graphicPath>Weapons/Jaffa_knife</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+    <soundInteract>InteractPistol</soundInteract>
+    <tradersCarry>False</tradersCarry>
+	<statBases>
+	  <MarketValue>150</MarketValue>
+    </statBases>
+    <equippedAngleOffset>25</equippedAngleOffset>
+	<weaponTags>
+    <li>JaffaKnifeWeapon</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <baseCooldownTicks>100</baseCooldownTicks>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageDef>Stab</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+</ThingDefs>

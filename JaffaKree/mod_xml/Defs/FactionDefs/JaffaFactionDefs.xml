@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+	<FactionDef>
+		<defName>JaffaTribe</defName>
+		<label>Jaffa</label>
+    <description>Slaves of the Goa'uld, the Jaffa are humans from many different worlds, most of whom have been implanted with larval Goa'uld symbiotes. Jaffa have a great sense of honor and nobility backing their oppressed history. Due to their oppression by the Goa'uld, many have become strong and self-sufficient on the battlefield.</description>
+    <pawnsPlural>Jaffas</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <raidCommonality>100</raidCommonality>
+    <canStageAttacks>true</canStageAttacks>
+    <canFlee>false</canFlee>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-80</max>
+    </startingGoodwill>
+		<factionNameMaker>NamerFactionJaffa</factionNameMaker>
+		<pawnNameMaker>NamerPersonJaffa</pawnNameMaker>
+		<techLevel>Spacer</techLevel>
+		<backstoryCategory>Raider</backstoryCategory>
+		<hairTags>
+			<li>Jaffa_Urban</li>
+			<li>Jaffa_Punk</li>
+			<li>Jaffa_Rural</li>
+			<li>Jaffa_Tribal</li>
+		</hairTags>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-80</max>
+    </naturalColonyGoodwill>
+		<spawnGroups>
+			<li>
+				<selectionWeight>70</selectionWeight>
+				<kinds>
+					<li>JaffaBasicB</li>
+				</kinds>
+			</li>
+			<li>
+				<selectionWeight>100</selectionWeight>
+				<kinds>
+					<li>JaffaBasicA</li>
+				</kinds>
+			</li>				
+			<li>
+				<selectionWeight>40</selectionWeight>
+				<kinds>
+					<li>JaffaBasicA</li>
+					<li>JaffaBasicB</li>
+					<li>JaffaJackalGuard</li>
+				</kinds>
+			</li>
+			<li>
+				<selectionWeight>40</selectionWeight>
+				<kinds>
+				    <li>JaffaBasicA</li>
+					<li>JaffaBasicB</li>
+					<li>JaffaHorusGuard</li>
+				</kinds>
+			</li>
+			<li>
+				<selectionWeight>40</selectionWeight>
+				<kinds>
+					<li>JaffaBasicA</li>
+					<li>JaffaBasicB</li>
+					<li>JaffaSnakeGuard</li>
+				</kinds>
+			</li>
+			<li>
+				<selectionWeight>20</selectionWeight>
+				<kinds>
+					<li>JaffaSnakeGuard</li>
+					<li>JaffaSnakeGuard</li>
+					<li>JaffaSnakeGuard</li>
+				</kinds>
+			</li>
+			<li>
+				<selectionWeight>20</selectionWeight>
+				<kinds>
+					<li>JaffaHorusGuard</li>
+					<li>JaffaHorusGuard</li>
+					<li>JaffaHorusGuard</li>
+				</kinds>
+			</li>
+			<li>
+				<selectionWeight>20</selectionWeight>
+				<kinds>
+					<li>JaffaJackalGuard</li>
+					<li>JaffaJackalGuard</li>
+					<li>JaffaJackalGuard</li>
+				</kinds>
+			</li>
+
+
+		</spawnGroups>
+    <homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+    <homeIconColor>(255,128,000)</homeIconColor>
+  </FactionDef>
+  
+
+</FactionDefs>
+

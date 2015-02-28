@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DefPackage-SoundDef>
+
+
+ <SoundDef>
+    <defName>JaffaStaff_Fire</defName>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>JaffaStaff_Fire</clipFolderPath>
+          </li>
+        </grains>      
+<!--         <pitchRange>
+          <min>0.5</min>        
+          <max>0.8</max>
+        </pitchRange> -->
+		<sustainRelease>1</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  
+</DefPackage-SoundDef>

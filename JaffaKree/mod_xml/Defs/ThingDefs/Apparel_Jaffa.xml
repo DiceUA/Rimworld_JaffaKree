@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <!-- ABSTRACT -->
+  <ThingDef Name="ApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <eType>Apparel</eType>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <tradersCarry>true</tradersCarry>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <!-- REAL DEF -->
+  <!-- basic cloth, pants and shirt -->
+  <ThingDef ParentName="ApparelBase">
+    <defName>Jaffa_Apparel_Pants</defName>
+    <label>Jaffa pants</label>
+    <description>A simple set of pants.</description>
+    <graphicPath>Apparel/vanilla_outfit/Jaffa_Pants_OnMap</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <commonality>50</commonality>
+      <tags>
+        <li>JaffaWarArmor</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase">
+    <defName>Jaffa_Apparel_BasicShirt</defName>
+    <label>Jaffa shirt</label>
+    <description>A basic T-shirt.</description>
+    <graphicPath>Apparel/vanilla_outfit/ShirtBasic</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/vanilla_outfit/ShirtBasic</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <commonality>50</commonality>
+      <tags>
+        <li>JaffaWarArmor</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
+  <!--   <ThingDef ParentName="ApparelBase">
+    <defName>SG_Jacket</defName>
+    <label>SG Vest</label>
+    <description>A sg vest.</description>s
+    <graphicPath>Apparel/SG_vest/SG_Jacket</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>80</MarketValue>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+    </statBases>
+    <equippedStatOffsets>
+      <ComfyTemperatureMin>-3</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/SG_vest/SG_Jacket</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <commonality>100</commonality>
+      <tags>
+        <li>SGoutfit</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.34,0.38,0.31,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.22,0.23,0.28,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef> -->
+  <!-- armor -->
+ <ThingDef ParentName="ApparelBase">
+    <defName>Jaffa_Armor</defName>
+    <label>Jaffa armor</label>
+    <description>Powerful Jaffa armor used by the heavy soldiers of every Goa'uld .</description>
+    <graphicPath>Apparel/Jaffa_Armor/Jaffa_Armor</graphicPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.12</MoveSpeed>
+      <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>Apparel/Jaffa_Armor/Jaffa_Armor</worngraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <commonality>1000</commonality>
+      <tags>
+		<li>JaffaWarArmor</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+		<li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+<!--         <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li> -->
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</ThingDefs>

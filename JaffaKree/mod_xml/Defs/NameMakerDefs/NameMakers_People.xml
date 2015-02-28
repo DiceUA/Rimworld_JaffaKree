@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+	<NameMakerDef>
+		<defName>NamerPersonJaffa</defName>
+		<patterns>
+			<li>JAFFANAME</li>
+		</patterns>
+		<patternFillers>
+			<li Class="NamePatternFiller_File">
+				<keyString>JAFFANAME</keyString>
+				<path>NameBanks/JaffaNames</path>
+			</li>
+		</patternFillers>
+	</NameMakerDef>
+
+</NameMakerDefs>

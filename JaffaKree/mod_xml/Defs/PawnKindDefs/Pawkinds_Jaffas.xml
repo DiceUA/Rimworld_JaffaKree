@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+
+	<!-- JaffaBasicA -->
+	<PawnKindDef>
+		<defName>JaffaBasicA</defName>
+		<label>Jaffa Soldier</label>
+		<race>Jaffa</race>
+    <pointsCost>70</pointsCost>
+    <defaultFactionType>JaffaTribe</defaultFactionType>
+		<baseRecruitDifficulty>80</baseRecruitDifficulty>
+		<backstoryCategory>Raider</backstoryCategory>
+    <isFighter>true</isFighter>
+    <invFoodCount>1</invFoodCount>
+	<itemQuality>Poor</itemQuality>
+	<apparelTags>
+	<li>JaffaWarBasicHelmet</li>
+    <li>JaffaWarArmor</li>
+    </apparelTags>
+	<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>1030</min>
+      <max>1030</max>
+    </apparelMoney>
+		<weaponMoney>
+			<min>850</min>
+			<max>1000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>JaffaStaffWeapon</li>
+			<li>JaffaZatWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- JaffaBasicB -->
+	<PawnKindDef>
+		<defName>JaffaBasicB</defName>
+		<label>Jaffa Soldier</label>
+		<race>Jaffa</race>
+    <pointsCost>40</pointsCost>
+    <defaultFactionType>JaffaTribe</defaultFactionType>
+		<baseRecruitDifficulty>80</baseRecruitDifficulty>
+		<backstoryCategory>Raider</backstoryCategory>
+    <isFighter>true</isFighter>
+    <invFoodCount>1</invFoodCount>
+	<itemQuality>Poor</itemQuality>
+	<apparelTags>
+	<li>JaffaWarBasicHelmet</li>
+    <li>JaffaWarArmor</li>	  
+    </apparelTags>
+	<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>1030</min>
+      <max>1030</max>
+    </apparelMoney>
+		<weaponMoney>
+			<min>150</min>
+			<max>550</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>JaffaKnifeWeapon</li>
+			<li>JaffaZatWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<!-- JaffaSnakeGuard -->
+	<PawnKindDef>
+		<defName>JaffaSnakeGuard</defName>
+		<label>Jaffa Snake Guard</label>
+		<race>Jaffa</race>
+    <pointsCost>140</pointsCost>
+    <defaultFactionType>JaffaTribe</defaultFactionType>
+		<baseRecruitDifficulty>95</baseRecruitDifficulty>
+		<backstoryCategory>Raider</backstoryCategory>
+    <isFighter>true</isFighter>
+    <invFoodCount>1</invFoodCount>
+	<itemQuality>Good</itemQuality>
+	<apparelTags>
+	  <li>Jaffapants</li>
+      <li>JaffaWarArmor</li>
+	  <li>JaffaWarSnakeHelmet</li>
+    </apparelTags>
+	<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>1230</min>
+      <max>1230</max>
+    </apparelMoney>
+		<weaponMoney>
+			<min>900</min>
+			<max>900</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>JaffaStaffWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<!-- JaffaJackalGuard -->
+	<PawnKindDef>
+		<defName>JaffaJackalGuard</defName>
+		<label>Jaffa Jackal Guard</label>
+		<race>Jaffa</race>
+    <pointsCost>140</pointsCost>
+    <defaultFactionType>JaffaTribe</defaultFactionType>
+		<baseRecruitDifficulty>95</baseRecruitDifficulty>
+		<backstoryCategory>Raider</backstoryCategory>
+    <isFighter>true</isFighter>
+    <invFoodCount>1</invFoodCount>
+	<itemQuality>Good</itemQuality>
+	<apparelTags>
+	  <li>Jaffapants</li>
+      <li>JaffaWarArmor</li>
+	  <li>JaffaWarJackalHelmet</li>
+    </apparelTags>
+	<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelMoney>
+      <min>1230</min>
+      <max>1230</max>
+    </apparelMoney>
+		<weaponMoney>
+			<min>900</min>
+			<max>900</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>JaffaStaffWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+	
+	<!-- JaffaHorusGuard -->
+	<PawnKindDef>
+		<defName>JaffaHorusGuard</defName>
+		<label>Jaffa Horus Guard</label>
+		<race>Jaffa</race>
+    <pointsCost>140</pointsCost>
+    <defaultFactionType>JaffaTribe</defaultFactionType>
+		<baseRecruitDifficulty>95</baseRecruitDifficulty>
+		<backstoryCategory>Raider</backstoryCategory>
+    <isFighter>true</isFighter>
+    <invFoodCount>1</invFoodCount>
+	<itemQuality>Good</itemQuality>
+    <apparelMoney>
+      <min>1230</min>
+      <max>1230</max>
+    </apparelMoney>
+	<apparelTags>
+	  <li>Jaffapants</li>
+      <li>JaffaWarArmor</li>
+	  <li>JaffaWarHorusHelmet</li>
+    </apparelTags>
+	<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<weaponMoney>
+			<min>900</min>
+			<max>900</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>JaffaStaffWeapon</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</PawnKindDefs>

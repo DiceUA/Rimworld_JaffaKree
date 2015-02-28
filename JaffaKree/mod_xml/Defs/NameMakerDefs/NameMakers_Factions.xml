@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+	<NameMakerDef>
+		<defName>NamerFactionJaffa</defName>
+		<patterns>
+			<li>The Goa'uld System Lords</li>
+		</patterns>
+		<patternFillers>
+			<li Class="NamePatternFiller_File">
+				<keyString>GOALUDNAME</keyString>
+				<path>NameBanks/GoauldNames</path>
+			</li>
+		</patternFillers>
+	</NameMakerDef>
+
+
+
+
+
+</NameMakerDefs>
+
+
+
+
+
+
+

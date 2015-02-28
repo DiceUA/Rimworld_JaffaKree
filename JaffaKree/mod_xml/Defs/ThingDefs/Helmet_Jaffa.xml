@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <!-- ABSTRACT -->
+  <ThingDef Name="ApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <eType>Apparel</eType>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useStandardHealth>True</useStandardHealth>
+    <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    <statBases>
+      <MaxHealth>100</MaxHealth>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <tradersCarry>true</tradersCarry>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <comps>
+      <li>
+        <compClass>CompForbiddable</compClass>
+      </li>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+	<!-- REAL --> 
+
+   <ThingDef ParentName="ApparelBase">
+   <defName>Jaffa_SnakeHelmet</defName>
+    <label>Serpent Guard Helmet</label>
+    <description>This Snake-shaped helmet is worn by the Serpent Guards lead by the Goa'uld Apophis.</description>
+    <graphicPath>Helmet/Jaffa_Helmet</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Helmet/Jaffa_Helmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>100</commonality>
+      <tags>
+        <li>JaffaWarSnakeHelmet</li>
+      </tags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+		<li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+  
+    <ThingDef ParentName="ApparelBase">
+   <defName>Jaffa_JackalHelmet</defName>
+    <label>Jackal Guard Helmet</label>
+    <description>This Jackal-shaped helmet is worn by the Jackal Guards lead by the Goa'uld Anubis.</description>
+    <graphicPath>Helmet/Jackal_Helmet</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Helmet/Jackal_Helmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>100</commonality>
+      <tags>
+        <li>JaffaWarJackalHelmet</li>
+      </tags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+		<li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+  
+  <ThingDef ParentName="ApparelBase">
+   <defName>Jaffa_HorusHelmet</defName>
+    <label>Horus Guard Helmet</label>
+    <description>This helmet is worn by the Horus Guards lead by the Goa'uld Ra.</description>
+    <graphicPath>Helmet/Horus_Helmet</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>300</MarketValue>
+      <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.35</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+      <ComfyTemperatureMax>20</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Helmet/Horus_Helmet</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>100</commonality>
+      <tags>
+        <li>JaffaWarHorusHelmet</li>
+      </tags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+		<li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+<!--     <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator> -->
+  </ThingDef>
+  
+     <ThingDef ParentName="ApparelBase">
+   <defName>Jaffa_BasicHelmet</defName>
+    <label>Jaffa Helmet</label>
+    <description>This basic Jaffa helmet doesn't offer a great protection but this helmet is light.</description>
+    <graphicPath>Helmet/Jaffa_Helmet_Basic</graphicPath>
+	<graphicClass>Graphic_Single</graphicClass>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.15</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>Helmet/Jaffa_Helmet_Basic</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <commonality>100</commonality>
+      <tags>
+        <li>JaffaWarBasicHelmet</li>
+      </tags>
+    </apparel>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+		<li>
+          <weight>10</weight>
+          <only>RGBA(1,1,1,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</ThingDefs>

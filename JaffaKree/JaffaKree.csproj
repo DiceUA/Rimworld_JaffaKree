@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5AED6811-8467-4368-A0F6-D483CC929DB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JaffaKree</RootNamespace>
+    <AssemblyName>JaffaKree</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Folder Include="mod_xml\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mod_xml\About\About.xml" />
+    <None Include="mod_xml\About\Preview.png" />
+    <None Include="mod_xml\Defs\FactionDefs\JaffaFactionDefs.xml" />
+    <None Include="mod_xml\Defs\HairDefs\HairsJaffa.xml" />
+    <None Include="mod_xml\Defs\NameMakerDefs\NameMakers_Factions.xml" />
+    <None Include="mod_xml\Defs\NameMakerDefs\NameMakers_People.xml" />
+    <None Include="mod_xml\Defs\PawnKindDefs\Pawkinds_Jaffas.xml" />
+    <None Include="mod_xml\Defs\SoundDefs\JaffaStaff_Sound.xml" />
+    <None Include="mod_xml\Defs\SoundDefs\ZatGun_Sound.xml" />
+    <None Include="mod_xml\Defs\ThingDefs\Apparel_Jaffa.xml" />
+    <None Include="mod_xml\Defs\ThingDefs\Helmet_Jaffa.xml" />
+    <None Include="mod_xml\Defs\ThingDefs\Races_Jaffa.xml" />
+    <None Include="mod_xml\Defs\ThingDefs\Weapons_Jaffas.xml" />
+    <None Include="mod_xml\Sounds\JaffaStaff_Fire.wav" />
+    <None Include="mod_xml\Sounds\ZatGun_Fire.wav" />
+    <None Include="mod_xml\Sounds\ZatGun_Interact.wav" />
+    <None Include="mod_xml\Strings\NameBanks\GoauldNames.txt" />
+    <None Include="mod_xml\Strings\NameBanks\GoauldNames_full.txt" />
+    <None Include="mod_xml\Strings\NameBanks\JaffaNames.txt" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Fat_back.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Fat_front.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Fat_side.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Female_back.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Female_front.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Female_side.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Hulk_back.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Hulk_front.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Hulk_side.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Male_back.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Male_front.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Male_side.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Thin_back.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Thin_front.png" />
+    <None Include="mod_xml\Textures\Apparel\Jaffa_Armor\Jaffa_Armor_Thin_side.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\Jaffa_Pants_OnMap.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Fat_back.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Fat_front.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Fat_side.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Female_back.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Female_front.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Female_side.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Hulk_back.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Hulk_front.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Hulk_side.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Male_back.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Male_front.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Male_side.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Thin_back.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Thin_front.png" />
+    <None Include="mod_xml\Textures\Apparel\vanilla_outfit\ShirtBasic_Thin_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Afro_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Afro_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Afro_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Bob_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Bob_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Bob_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Burgundy_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Burgundy_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Burgundy_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Flowy_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Flowy_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Flowy_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Long_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Long_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Long_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Mohawk_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Mohawk_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Mohawk_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Mop_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Mop_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Mop_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Pigtails_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Pigtails_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Pigtails_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Shaved_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Shaved_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Shaved_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Spikes_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Spikes_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Spikes_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Tuft_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Tuft_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Tuft_side.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Wavy_back.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Wavy_front.png" />
+    <None Include="mod_xml\Textures\Hair\Jaffa_Wavy_side.png" />
+    <None Include="mod_xml\Textures\Helmet\Horus_Helmet.png" />
+    <None Include="mod_xml\Textures\Helmet\Horus_Helmet_back.png" />
+    <None Include="mod_xml\Textures\Helmet\Horus_Helmet_front.png" />
+    <None Include="mod_xml\Textures\Helmet\Horus_Helmet_side.png" />
+    <None Include="mod_xml\Textures\Helmet\Jackal_Helmet.png" />
+    <None Include="mod_xml\Textures\Helmet\Jackal_Helmet_back.png" />
+    <None Include="mod_xml\Textures\Helmet\Jackal_Helmet_front.png" />
+    <None Include="mod_xml\Textures\Helmet\Jackal_Helmet_side.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_back.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_Basic.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_Basic_back.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_Basic_front.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_Basic_side.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_front.png" />
+    <None Include="mod_xml\Textures\Helmet\Jaffa_Helmet_side.png" />
+    <None Include="mod_xml\Textures\Weapons\Jaffa_knife.png" />
+    <None Include="mod_xml\Textures\Weapons\staff.png" />
+    <None Include="mod_xml\Textures\Weapons\zat.png" />
+    <None Include="mod_xml\Textures\Weapons\zat2.png" />
+    <None Include="mod_xml\Textures\Weapons\Projectile\bulet_zat.png" />
+  </ItemGroup>
+</Project>

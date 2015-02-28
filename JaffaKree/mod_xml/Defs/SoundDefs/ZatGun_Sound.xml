@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DefPackage-SoundDef>
+
+
+ <SoundDef>
+    <defName>ZatGun_Fire</defName>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>ZatGun_Fire</clipFolderPath>
+          </li>
+        </grains>      
+<!--         <pitchRange>
+          <min>0.5</min>        
+          <max>0.8</max>
+        </pitchRange> -->
+		<sustainRelease>1</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+   <SoundDef>
+    <defName>InteractZat</defName>  
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>ZatGun_Interact</clipPath>
+          </li>
+        </grains>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+</DefPackage-SoundDef>
