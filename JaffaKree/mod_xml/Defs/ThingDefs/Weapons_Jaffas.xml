@@ -100,7 +100,7 @@
 	<graphicClass>Graphic_Single</graphicClass>
 	<soundInteract>InteractPistol</soundInteract>
     <statBases>
-      <MarketValue>900</MarketValue>
+      <MarketValue>1100</MarketValue>
     </statBases>
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>False</destroyOnDrop>
@@ -149,7 +149,7 @@
 	<!-- <soundInteract>InteractPistol</soundInteract> -->
 	<soundInteract>InteractZat</soundInteract>
     <statBases>
-      <MarketValue>500</MarketValue>
+      <MarketValue>800</MarketValue>
     </statBases>
     <techLevel>Spacer</techLevel>
     <destroyOnDrop>False</destroyOnDrop>
@@ -185,7 +185,7 @@
 	<graphicClass>Graphic_Single</graphicClass>
     <soundInteract>InteractPistol</soundInteract>
 	<statBases>
-	  <MarketValue>150</MarketValue>
+	  <MarketValue>200</MarketValue>
     </statBases>
     <equippedAngleOffset>25</equippedAngleOffset>
 	<weaponTags>
