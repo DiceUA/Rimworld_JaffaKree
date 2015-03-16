@@ -1,14 +1,14 @@
 ﻿<Properties StartupItem="JaffaKree\JaffaKree.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="JaffaKree\mod_xml\Defs\ThingDefs\Weapons_Jaffas.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JaffaKree\mod_xml\Defs\FactionDefs\JaffaFactionDefs.xml">
     <Files>
       <File FileName="JaffaKree\mod_xml\Defs\RulePackDefs\RulePacks_NameMakers_Factions.xml" Line="1" Column="1" />
       <File FileName="JaffaKree\mod_xml\Defs\RulePackDefs\RulePacks_NameMakers_People.xml" Line="1" Column="1" />
       <File FileName="JaffaKree\mod_xml\Defs\ThingDefs\Races_Jaffa.xml" Line="1" Column="1" />
-      <File FileName="JaffaKree\mod_xml\Defs\FactionDefs\JaffaFactionDefs.xml" Line="1" Column="1" />
+      <File FileName="JaffaKree\mod_xml\Defs\FactionDefs\JaffaFactionDefs.xml" Line="42" Column="42" />
       <File FileName="JaffaKree\mod_xml\About\About.xml" Line="1" Column="1" />
       <File FileName="JaffaKree\mod_xml\Defs\ThingDefs\Apparel_Jaffa.xml" Line="1" Column="1" />
-      <File FileName="JaffaKree\mod_xml\Defs\ThingDefs\Weapons_Jaffas.xml" Line="32" Column="32" />
+      <File FileName="JaffaKree\mod_xml\Defs\ThingDefs\Weapons_Jaffas.xml" Line="24" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
